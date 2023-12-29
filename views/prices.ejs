@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="copyright" content="MACode ID, https://macodeid.com/">
+
+    <title>Cloud-X Solutions</title>
+
+    <link rel="stylesheet" href="assets/css/maicons.css">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+
+    <link rel="stylesheet" href="assets/vendor/animate/animate.css">
+
+    <link rel="stylesheet" href="assets/css/theme.css">
+
+    <link rel="stylesheet" href="/style/style.css">
+    <title>CreatallVM</title>
+    <style>
+        .button1 {
+            height: 30px;
+            width: 120px;
+            border: 3px solid black;
+            color: black;
+            border-color: white;
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white sticky" data-offset="500">
+            <div class="container">
+                <img src="/img/logo.png" alt="" srcset="" width="100" height="100">
+                <a href="#" class="navbar-brand">Cloud-X<span class="text-primary"> Solutions</span></a>
+
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent"
+                    aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="navbar-collapse collapse" id="navbarContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="service.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Help</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="dropdown">
+                                <a class=" dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+
+                                </a>
+
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                                    <li><a class="dropdown-item" href="/logout">Logout</a></li>
+                                </ul>
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+
+
+    <div class="container col-md-7">
+        <form action="" method="post">
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">OS</span>
+                <select class="form-control" name="vmos">
+                    <option value="ami-052cef05d01020f1d">Amazon Linux </option>
+                    <option value="ami-0aa96960b27e44dc9">Microsoft Windows </option>
+                </select>
+            </div>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text">Ram</span>
+                <input type="text" name="ram" class="form-control" placeholder="Ram " aria-label="Recipient's username"
+                    aria-describedby="basic-addon2">
+                <span class="input-group-text" id="basic-addon2">GiB</span>
+            </div>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon3">Vcpus</span>
+                <input type="text" name="vcpu" placeholder="Vcpu" class="form-control" id="basic-url"
+                    aria-describedby="basic-addon3">
+            </div>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text">Storage</span>
+                <input type="text" name="storage" placeholder="Storage" class="form-control"
+                    aria-label="Amount (to the nearest dollar)">
+                <span class="input-group-text">GiB</span>
+            </div>
+
+            <!-- add submit button -->
+            <div class="container col-md-5">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+    <br>
+    <br>
+    <div class="container col-md-7">
+        <h1>Pricing from AWS</h1>
+    </div>
+    <div class="container col-md-7">
+        <table class="table table-bordered border-danger">
+            <thead>
+              <tr>
+                <th scope="col">VM Series</th>
+                <th scope="col">Ram</th>
+                <th scope="col">NoOfCPU</th>
+                <th scope="col">Storage</th>
+                <th scope="col">WindowsCost</th>
+                <th scope="col">LinuxCost</th>
+                <th scope="col">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+                <%if(AWS!=''){%>
+            
+                <%for(let i = 0;i<AWS.length;i++){ %>
+                <tr>
+                    <form action="form" method="post">
+                    <td scope="col"><%=AWS[i].Type%></td>
+                    <input type="text" name="type" value="<%=AWS[i].Type%>" hidden>
+                    <input type="text" name="vmos" value="<%=os%>" hidden>
+                    <td scope="col"><%=AWS[i].RAM%></td>
+                    <td scope="col"><%=AWS[i].noofcpu%></td>
+                    <td scope="col"><%=AWS[i].Storage%></td>
+                    <td scope="col"><%=AWS[i].Windowscost%></td>
+                    <td scope="col"><%=AWS[i].linuxcost%></td>
+                    <td scope="col"><button class="btn btn-primary">Launch🚀</button></td>
+                    </form>
+                  </tr>
+                <%}%>
+          
+                <%}%>
+
+            </tbody>
+          </table>
+    </div>
+
+
+    <div class="container col-md-7">
+        <h1>Pricing from Azure</h1>
+    </div>
+    <div class="container col-md-7">
+        <table class="table table-bordered border-danger">
+            <thead>
+              <tr>
+                <th scope="col">VM Series</th>
+                <th scope="col">Ram</th>
+                <th scope="col">NoOfCPU</th>
+                <th scope="col">Storage</th>
+                <th scope="col">WindowsCost</th>
+                <th scope="col">LinuxCost</th>
+                <th scope="col">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+                <%if(Azure!=''){%>
+              
+                <%for(let i = 0;i<Azure.length;i++){ %>
+                <tr>
+                   
+                    <td scope="col"><%=Azure[i].Type%></td>
+                    <td scope="col"><%=Azure[i].RAM%></td>
+                    <td scope="col"><%=Azure[i].noofcore%></td>
+                    <td scope="col"><%=Azure[i].Storage%></td>
+                    <td scope="col"><%=Azure[i].windowsPrice%></td>
+                    <td scope="col"><%=Azure[i].linuxPrice%></td>
+                    <td scope="col"> <button class="btn btn-primary">Launch🚀</button> </td>
+                   
+                  </tr>
+                <%}%>
+               
+                <%}%>
+
+            </tbody>
+          </table>
+    </div>
+</body>
+
+</html>

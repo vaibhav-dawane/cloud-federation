@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="copyright" content="MACode ID, https://macodeid.com/">
+
+    <title>Cloud-X Solutions</title>
+
+    <link rel="stylesheet" href="assets/css/maicons.css">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+
+    <link rel="stylesheet" href="assets/vendor/animate/animate.css">
+
+    <link rel="stylesheet" href="assets/css/theme.css">
+
+    <link rel="stylesheet" href="/style/style.css">
+    <title>CreatallVM</title>
+    <style>
+        .button1 {
+            height: 30px;
+            width: 120px;
+            border: 3px solid black;
+            color: black;
+            border-color: white;
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white sticky" data-offset="500">
+            <div class="container">
+                <img src="/img/logo.png" alt="" srcset="" width="100" height="100">
+                <a href="#" class="navbar-brand">Cloud-X<span class="text-primary"> Solutions</span></a>
+
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent"
+                    aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="navbar-collapse collapse" id="navbarContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="service.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Help</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="dropdown">
+                                <a class=" dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                  <%=Name%>
+                                </a>
+                              
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                  <li><a class="dropdown-item" href="#">Profile</a></li>
+                                  <li><a class="dropdown-item" href="/logout">Logout</a></li>
+                                </ul>
+                              </div>
+                              
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+
+
+   <center> <div class=" container col-md-9">
+        <div id=" rates">
+            <input type="radio" id="r1" name="rate" value="AWS" >
+            <!-- image of Icon size  -->
+            <label for="r1">
+                <img src="https://5.imimg.com/data5/SELLER/Default/2021/8/NP/YN/DN/3775979/aws-logo-500x500.png" alt="AWS" width="100" height="80">
+            <input  type="radio" id="r2" name="rate" value="Azure" >
+            <label for="r1">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Microsoft_Azure.svg/1200px-Microsoft_Azure.svg.png" alt="AWS" width="70" height="60">
+            <input type="radio" id="r2" name="rate" value="GCP" > 
+            <label for="r1">
+                <img src="https://cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png" alt="AWS" width="150" height="80">
+                <label for="r1">
+                    <img src="" alt="AWS" width="150" height="80" hidden>
+            <div>
+                <button type="button" class="btn btn-primary ml-lg-2" onclick="displayRadioValue()">Continue</button>
+            </div>
+        </div>
+    </center>
+        <!-- Username :<input type="text" id="user" class="text" onblur="myFunction()"><br> -->
+        <script>
+            function displayRadioValue() {
+                var ele = document.getElementsByName('rate');
+
+                for (i = 0; i < ele.length; i++) {
+                    if (ele[i].checked) {
+                        if (ele[i].value == 'AWS') {
+
+                            document.getElementById("Awscreate").style.display = "block";
+                            document.getElementById("Azurecreate").style.display = "none";
+                            document.getElementById("GCPcreate").style.display = "none";
+                        }
+                        if (ele[i].value == 'Azure') {
+                            document.getElementById("Azurecreate").style.display = "block";
+
+                            document.getElementById("Awscreate").style.display = "none";
+                            document.getElementById("GCPcreate").style.display = "none";
+
+                        }
+                        if (ele[i].value == 'GCP') {
+                            document.getElementById("GCPcreate").style.display = "block";
+
+                            document.getElementById("Awscreate").style.display = "none";
+                            document.getElementById("Azurecreate").style.display = "none";
+
+                        }
+                    }
+                }
+            }
+        </script>
+        <!-- ************************************* || AWS || *****************************************-->
+        <div class="container col-md-8">
+            <form action="CreateAwsVM" method="POST" id="Awscreate" style="display: none;">
+
+                <div class="form-row">
+                    <div class="form-group col-md-6" id="vmname">
+                        <label for="inputEmail4">Enter Name Of AWS</label>
+                        <input type="vmname" class="form-control" placeholder="VM Name" name="vname">
+                    </div>
+                    <div class="form-group col-md-6" id="vmos">
+                        <label for="inputos">Operating System</label>
+                        <input type="text" class="form-control" placeholder="<%=Vmos%>" name="vmos" value="<%=Vmos%>">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputAddress">Instance Type</label>
+                        <input type="text" class="form-control" name="vmtype" value="<%=Type%>" placeholder="<%=Type%>">
+                    </div>
+                        
+                    <div class="form-group col-md-6" id="vmcount">
+                        <label for="inputAddress">Max Count</label>
+                        <input type="number" class="form-control" name="vmcount" >
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputAddress">Security Group Rule</label>
+                        <select class="form-control">
+                            <option value="t2.micro">TCP</option>
+                            <option value="t2.small">UDP</option>
+                            <option value="n1-standard-1">Mysql</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group col-md-6" id="gitlink">
+                        <label for="inputAddress">GitHub Repo Link (Public)</label>
+                        <input type="text" class="form-control" name="github">
+                    </div>
+
+                </div>
+                <button type="submit" class="btn btn-primary">Create</button>
+            </form>
+        </div>
+        <!-- **************************************** || AZURE || ******************************************** -->
+        <div class="container col-md-8">
+        <form action="CreateAzure " method="POST" id="Azurecreate" style="display: none;">
+
+            <div class="form-row ">
+                <div class="form-group col-md-6" id="vmname">
+                    <label for="inputEmail4">Enter Name Of Azure</label>
+                    <input type="vmname" class="form-control" placeholder="VM Name" name="vname">
+                </div>
+            </div>
+
+            <div class="form-row ">
+                <div class="form-group col-md-6" id="vmgroup">
+                    <label for="inputAddress">Resource Group Name</label>
+                    <input type="text" class="form-control" name="vmgroup">
+                </div>
+
+                <div class="form-group col-md-6" id="azname">
+                    <label for="inputAddress">VirtualNetworks Name</label>
+                    <input type="text" class="form-control" name="vnet">
+                </div>
+            </div>
+
+            <div class="form-row ">
+                <div class="form-group col-md-6" id="azpublic">
+                    <label for="inputAddress">Public IP Addresses Name</label>
+                    <input type="text" class="form-control" name="azpublic">
+                </div>
+
+                <div class="form-group col-md-6" id="aznic">
+                    <label for="inputAddress">NetworkInterfaces Name</label>
+                    <input type="text" class="form-control" name="aznic">
+                </div>
+            </div>
+
+            <div class="form-row ">
+                <div class="form-group col-md-6" id="username">
+                    <label for="inputAddress">Admin Username</label>
+                    <input type="text" class="form-control" name="username">
+                </div>
+
+                <div class="form-group col-md-6" id="password">
+                    <label for="inputAddress">Admin Password</label>
+                    <input type="text" class="form-control" name="password">
+                </div>
+            </div>
+
+
+            <button type="submit" class="btn btn-primary">Create</button>
+        </form>
+    </div>
+        <!-- ************************* GCP *************************************************-->
+        <div class="container col-md-8" >
+        <form action="CreateGCPvm" method="POST" id="GCPcreate" style="display: none;">
+
+            <div class="form-row">
+                <div class="form-group col-md-6" id="vmname">
+                    <label for="inputEmail4">Enter Name Of GCP</label>
+                    <input type="vmname" class="form-control" placeholder="VM Name" name="vname">
+                </div>
+                <div class="form-group col-md-6" id="vmos">
+                    <label for="inputos">Select Operating System</label>
+                    <select class="form-control" name="vmos">
+                        <option value="ami-03fa4afc89e4a8a09">Amazon Linux 2 AMI (HVM) - Kernel 5.10</option>
+                        <option value="ami-0651f1bab1a933ae5">Amazon Linux 2 AMI (HVM) - Kernel 4.14</option>
+                        <option value="ami-053a337ba7a8c1cb1">Microsoft Windows Server 2019 Base </option>
+                        <option value="ami-0aa96960b27e44dc9">Microsoft Windows Server 2022 Base</option>
+                        <option value="ami-08ee6644906ff4d6c">Ubuntu Server 18.04 LTS (HVM)</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-row" id="vmtype">
+                <div class="form-group col-md-6">
+                    <label for="inputAddress">VM Type</label>
+                    <select class="form-control" name="vmtype">
+                        <option value="t2.micro">t2.micro</option>
+                        <option value="t2.small">t2.small</option>
+                        <option value="t2.nano">t2.nano</option>
+                        <option value="n1-standard-1">n1-standard-1</option>
+                    </select>
+                </div>
+
+                <div class="form-group col-md-6" id="vmcount">
+                    <label for="inputAddress">Max Count</label>
+                    <input type="number" class="form-control" name="vmcount">
+                </div>
+            </div>
+            <div class="form-row ">
+                <div class="form-group col-md-6" id="disk">
+                    <label for="inputAddress">Disk Size</label>
+                    <input type="text" class="form-control" name="disk">
+                </div>
+            </div>
+
+
+
+            <button type="submit" class="btn btn-primary">Create</button>
+        </form>
+    </div>
+
+   
+</body>
+
+</html>

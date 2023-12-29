@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap');
+body {
+    background-image: url("../assets/img/hero-bg.png");
+    background-size: cover;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#clglogo {
+    text-align: center;
+    max-width: 50%;
+}
+
+.home-overlay {
+    width: 100%;
+    height: 100%;
+    background: #1976d28c;
+    position: absolute;
+    top: 0;
+    opacity: .5;
+}
+
+small {
+    color: gray;
+    display: block;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+label {
+    color: #000;
+    font-size: 14px;
+}
+
+#checktext {
+    padding: 0 !important;
+    padding-left: 22px !important;
+    padding-right: 22px !important;
+    color: black;
+}
+
+.card.white {
+    padding: 10px;
+    padding-left: 0px;
+    border-radius: 20px;
+}
+
+.card .card-content {
+    padding: 0;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+}
+
+#loginpassword {
+    padding-left: 10px;
+    border: 2px solid #1d72bc;
+}
+#lisenceid{
+    padding-left: 10px;
+    border: 2px solid #1d72bc;
+}
+#dcname{
+    padding-left: 10px;
+    border: 2px solid #1d72bc;
+}
+#dcspeciality{
+    padding-left: 10px;
+    border: 2px solid #1d72bc;
+}
+
+#loginemail {
+    padding-left: 10px;
+    border: 2px solid #1d72bc;
+}
+
+#signinemail {
+    padding-left: 10px;
+    border: 2px solid #1d72bc;
+}
+
+#signinPRN {
+    padding-left: 10px;
+    border: 2px solid #1d72bc;
+}
+
+#signinpassword {
+    padding-left: 10px;
+    border: 2px solid #1d72bc;
+}
+
+#studresetemail {
+    padding-left: 10px;
+    border: 2px solid #1d72bc;
+}
+
+.progress {
+    visibility: hidden;
+    margin-left: 5px;
+}
+
+#loginprogress {
+    margin: 0px;
+    margin-left: 5px;
+}
+
+#signinprogress {
+    margin: 0px;
+    margin-left: 5px;
+}
+
+#resetprogress {
+    margin: 0px;
+    margin-left: 5px;
+}
+
+#breathing-button {
+    -webkit-animation: breathing 2s ease-out infinite normal;
+    animation: breathing 2s ease-out infinite normal;
+    -webkit-font-smoothing: antialiased;
+}
+
+@-webkit-keyframes breathing {
+    0% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+    25% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    60% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+    100% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}
+
+@keyframes breathing {
+    0% {
+        -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+    25% {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    60% {
+        -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+    100% {
+        -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}
+
+.btn {
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-transform: none;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.card.white.admin-login {
+    padding: 0;
+    margin-top: 30px;
+}
+
+.heading-card {
+    background-color: transparent;
+}
+
+h3 {
+    color: white;
+    position: relative;
+    padding: 15px;
+}
+
+h4 {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 35px;
+    color: #1976d2;
+}
+
+h5 {
+    font-weight: bold;
+    color: #1976d2;
+    font-size: 25px;
+}
+
+@media screen and (min-width: 861px) {
+    .login-card {
+        margin: auto;
+        width: 30%;
+        margin-top: 4%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .login-card {
+        margin: auto;
+        width: 60%;
+        margin-top: 15%;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    h3 {
+        font-size: 33px;
+    }
+    .login-card {
+        margin: auto;
+        width: 90%;
+        margin-top: 20%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    h3 {
+        font-size: 33px;
+    }
+    .login-card {
+        margin: auto;
+        width: 90%;
+        margin-top: 10%;
+    }
+    .home-overlay {
+        height: 120%;
+    }
+}

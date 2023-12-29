@@ -1,13 +1,15 @@
 # cloud-federation
 
+1. Install Nodejs
+      curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 
-<h2> curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash - </h2>
-<br> 
-<h2> sudo apt install -y nodejs </h2>
-<br>
-<h2> npm install </h2>
-<br>
-<h2> node index.js </h2>
+      sudo apt install -y nodejs
+   
+      npm install
+
+2. Run index.js
+
+      node index.js </h2>
 
 
 

@@ -50,8 +50,8 @@ app.use(bodyParser.urlencoded({
 //-------------------------------------------Routes-----------------------------------------------------
 //app.use('/', require('./routes/allClouds'));
 app.use('/', require('./routes/AWS'));
-app.use('/', require('./routes/GCP'));
-app.use('/', require('./routes/Azure'));
+// app.use('/', require('./routes/GCP'));
+// app.use('/', require('./routes/Azure'));
 app.use('/', require('./routes/auth.js'));
 
 let credentials = null;

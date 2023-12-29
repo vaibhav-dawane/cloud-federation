@@ -1,15 +1,38 @@
 # cloud-federation
 
-1. Install Nodejs
-      curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+To get started with this project, follow these steps:
 
-      sudo apt install -y nodejs
-   
-      npm install
+1. Clone the repository:
 
-2. Run index.js
+    ```bash
+    git clone https://github.com/your-username/your-repository.git
+    ```
 
-      node index.js </h2>
+2. Navigate to the project directory:
+
+    ```bash
+    cd your-repository
+    ```
+
+3. Install dependencies:
+
+    ```bash
+    curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+    ```
+ 
+    ```bash
+    sudo apt install -y nodejs
+    ```
+
+    ```bash
+    npm install
+    ```
+
+4. Run the project:
+
+    ```bash
+    node index.js
+    ```
 
 
 
